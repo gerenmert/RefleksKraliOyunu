@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/background"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/hizlanmaImage"
+        android:layout_width="154dp"
+        android:layout_height="112dp"
+        android:onClick="hizlanma"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/hizlanma" />
+
+    <ImageView
+        android:id="@+id/cezaPuanliImage"
+        android:layout_width="154dp"
+        android:layout_height="112dp"
+        android:onClick="cezaPuanli"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/cezapuanli" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="168dp"
+        android:layout_height="79dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginEnd="2dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/refleks" />
+
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="168dp"
+        android:layout_height="42dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:srcCompat="@drawable/krali" />
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="48dp"
+        android:layout_height="67dp"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="2dp"
+        android:onClick="hakkinda"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/hizlanmaImage"
+        app:layout_constraintStart_toEndOf="@+id/cezaPuanliImage"
+        app:layout_constraintTop_toTopOf="@+id/hizlanmaImage"
+        app:srcCompat="@drawable/hakkinda" />
+
+</android.support.constraint.ConstraintLayout>

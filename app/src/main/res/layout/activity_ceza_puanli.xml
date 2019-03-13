@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/background2"
+    android:textStyle="bold"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CezaPuanliActivity">
+
+    <android.support.v7.widget.GridLayout
+        android:id="@+id/gridLayout2"
+        android:layout_width="382dp"
+        android:layout_height="512dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView101"
+            android:layout_width="128dp"
+            android:layout_height="128dp"
+            app:layout_column="0"
+            app:layout_row="0" />
+
+        <ImageView
+            android:id="@+id/imageView103"
+            android:layout_width="128dp"
+            android:layout_height="128dp"
+            app:layout_column="2"
+            app:layout_row="0" />
+
+        <ImageView
+            android:id="@+id/imageView105"
+            android:layout_width="128dp"
+            android:layout_height="128dp"
+            app:layout_column="1"
+            app:layout_row="1" />
+
+        <ImageView
+            android:id="@+id/imageView107"
+            android:layout_width="128dp"
+            android:layout_height="128dp"
+            app:layout_column="0"
+            app:layout_row="2" />
+
+        <ImageView
+            android:id="@+id/imageView109"
+            android:layout_width="128dp"
+            android:layout_height="128dp"
+            app:layout_column="2"
+            app:layout_row="2" />
+
+        <ImageView
+            android:id="@+id/imageView111"
+            android:layout_width="128dp"
+            android:layout_height="128dp"
+            app:layout_column="1"
+            app:layout_row="3" />
+
+        <ImageView
+            android:id="@+id/imageView102"
+            android:layout_width="128dp"
+            android:layout_height="128dp"
+            app:layout_column="1"
+            app:layout_row="0" />
+
+        <ImageView
+            android:id="@+id/imageView104"
+            android:layout_width="128dp"
+            android:layout_height="128dp"
+            app:layout_column="0"
+            app:layout_row="1" />
+
+        <ImageView
+            android:id="@+id/imageView106"
+            android:layout_width="128dp"
+            android:layout_height="128dp"
+            app:layout_column="2"
+            app:layout_row="1" />
+
+        <ImageView
+            android:id="@+id/imageView108"
+            android:layout_width="128dp"
+            android:layout_height="128dp"
+            app:layout_column="1"
+            app:layout_row="2" />
+
+        <ImageView
+            android:id="@+id/imageView110"
+            android:layout_width="128dp"
+            android:layout_height="128dp"
+            app:layout_column="0"
+            app:layout_row="3" />
+
+        <ImageView
+            android:id="@+id/imageView112"
+            android:layout_width="128dp"
+            android:layout_height="128dp"
+            app:layout_column="2"
+            app:layout_row="3" />
+
+    </android.support.v7.widget.GridLayout>
+
+    <TextView
+        android:id="@+id/skorTextView2"
+        android:layout_width="96dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="64dp"
+        android:text="Skor : 0"
+        android:textColor="@android:color/background_light"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/gridLayout2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/zamanTextView2"
+        android:layout_width="118dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="64dp"
+        android:text="Zaman : 120"
+        android:textColor="@android:color/background_light"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/gridLayout2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</android.support.constraint.ConstraintLayout>
